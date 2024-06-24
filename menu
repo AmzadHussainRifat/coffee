@@ -1,10 +1,11 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/style.css">    
-<title>Camper Cafe Menu</title>
+    <title>Camper Cafe Menu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-image: url('pexels-blankspace-2907301.jpg'); 
             background-size: cover;
             display: flex;
             justify-content: center;
