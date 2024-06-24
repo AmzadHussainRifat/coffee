@@ -1,0 +1,82 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">    
+<title>Camper Cafe Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .menu {
+            background-color: #d2b48c;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 300px;
+        }
+        .menu h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .menu p {
+            font-size: 14px;
+            margin: 5px 0 20px;
+        }
+        .menu h2 {
+            font-size: 20px;
+            border-bottom: 1px solid #8b0000;
+            padding-bottom: 5px;
+            margin: 10px 0;
+        }
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu li {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px 0;
+        }
+        .footer {
+            border-top: 1px solid #8b0000;
+            padding-top: 10px;
+            margin-top: 20px;
+            font-size: 12px;
+        }
+        .footer a {
+            color: #8b0000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <h1>Camper Cafe</h1>
+        <p>Est. 2024</p>
+        <h2>Coffee</h2>
+        <ul>
+            <li>French Vanilla <span>3.00</span></li>
+            <li>Caramel Macchiato <span>3.75</span></li>
+            <li>Pumpkin Spice <span>3.50</span></li>
+            <li>Hazelnut <span>4.00</span></li>
+            <li>Mocha <span>4.50</span></li>
+        </ul>
+        <h2>Desserts</h2>
+        <ul>
+            <li>Donut <span>1.50</span></li>
+            <li>Cherry Pie <span>2.75</span></li>
+            <li>Cheesecake <span>3.00</span></li>
+            <li>Cinnamon Roll <span>2.50</span></li>
+        </ul>
+        <div class="footer">
+            <p><a href="#">Visit our website</a></p>
+            <p>COM109 Code Camp</p>
+        </div>
+    </div>
+</body>
+</html>
